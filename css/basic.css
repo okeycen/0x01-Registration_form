@@ -1,0 +1,18 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  align-content: center;
+  font-size: 16px;
+  font-family: "Poppins";
+  background: url("../img/bg-intro-desktop.png"), linear-gradient(hsl(0,100%,74%), hsl(360,100%,74%));
+  
+}
+
+
