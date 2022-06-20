@@ -11,9 +11,9 @@ html,body{
 .m-main{
     width: 85%;
     height: 100vh;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    align-content: space-around;
    
 }
 
@@ -23,7 +23,7 @@ html,body{
 }
 
 .left-container{
-    padding-left: 10rem;
+    padding-left: 4rem;
 }
 
 .left-container h1{
@@ -76,8 +76,8 @@ input[type=text],
 }
 
 #info p{
-    padding: 0.5rem 0.5rem 2rem 1rem ; 
-    font-size: 0.45rem;
+    padding: 0.5rem 0.5rem 2rem 3rem ; 
+    font-size: 0.5rem;
     color: hsl(249, 10%, 26%) ;
 }
 
@@ -89,7 +89,14 @@ input[type=text],
    @media screen and (max-width: 375px) {
 
     .m-main{
-        flex-direction: column;
+        grid-template-columns: 1fr;
+    }
+
+    html,body{
+        background-color: aqua;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        color: #fff;
     }
     
    }
