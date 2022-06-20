@@ -5,43 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration form | Welcome</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/basic.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <main>
-        <section class="left-content" id="left-content-id">
+    <main class="m-main">
+        <section class="left-container">
             <h1>Learn to code by <br> watching others</h1>
             <p>See how experienced developers solve problems in real-time.<br>
                watching scripted tutorials is great but understanding how <br>
                developers think is invaluable.   
             </p>
         </section>
-        <section class="right-content">
-            <div class="info">
+        <section class="right-container">
+            <div id="blue-info">
                 <p><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
             </div>
             <div>
                 <form action="">
-                    <div>
-                        <input type="text"     placeholder="First Name">
+
+                    <div id="reg-form">
+                        <div>
+                            <input type="text"     placeholder="First Name">
+                        </div>
+                        <div>
+                            <input type="text"     placeholder="Last Name">
+                        </div>
+                        <div>
+                            <input type="email"    placeholder="Email Address">
+                        </div>
+                        <div>
+                            <input type="password" placeholder="Password">
+                        </div>
+                        <div id="green">
+                            <input type="submit"   value="CLAIM YOUR FREE TRIAL">
+                        </div>
                     </div>
-                    <div>
-                        <input type="text"     placeholder="Last Name">
-                    </div>
-                    <div>
-                        <input type="email"    placeholder="Email Address">
-                    </div>
-                    <div>
-                        <input type="password" placeholder="Password">
-                    </div>
-                    <div class="green">
-                        <input type="submit"   value="CLAIM YOUR FREE TRIAL">
-                    </div>
-                    <div>
-                        <p><strong>By clicking the button, you are agreeing to our&nbsp;<span id="terms-redmark"> Terms and Services</span></strong> </p>
-                    </div>           
+
+                    <div id="info">
+                        <p>
+                            <a href=""><strong>By clicking the button, you are agreeing to our&nbsp;<span id="terms"> Terms and Services</span></strong></a>
+                        </p>
+                    </div> 
+
                 </form>
             </div>
         </section>
